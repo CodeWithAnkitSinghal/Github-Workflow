@@ -1,1 +1,24 @@
-Starting with fresh project
+create a folder with NameOfTheProject as name 
+>git init NameOfTheProject
+cd into the folder
+
+>ls
+will show nothing as of now
+
+>git status 
+will show that we are on the master branch. it is the default branch
+we can create more branches.
+
+create a new file using echo command and put some content in it.
+>git staus 
+it will show untracked file. To have git track this file use git add to add to stagging area
+
+>git add fileName
+>git status
+it shows changes to be commited. We can backout this file
+
+>git commit -m "Commit Message"
+all moved to the local repository
+
+> git push origin/master
+
