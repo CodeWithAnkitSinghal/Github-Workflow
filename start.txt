@@ -1,1 +1,28 @@
-Git Quick Start Demo
+clone a repository present in your github
+> git clone URL of the github repository
+
+List down the files present in the the repository
+> ls
+
+status of the github: working on which branch/ upto date or not/ anything to commit or not
+> git status
+
+create a new file 
+> echo "Content to be written in file" >> FileName.txt
+
+to add a file in staggin area of local git(ready to commit)
+>git add FileName.txt
+
+we can get rid of any modification done present in stagging area 
+
+Commiting a new file in local repository (will not add in the remote directory present in the github account)
+>git commit -m "Commit message"
+
+git status will now show that working directory will show as clean but the code is not transfered to the remote repository
+
+to push the changes to the repository
+>git push origin branchName
+prompt of username and password will be asked
+
+
+
