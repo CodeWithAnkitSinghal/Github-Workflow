@@ -1,3 +1,4 @@
+All these commands are done using git version 2.16.2.windows.1
 clone a repository present in your github
 > git clone URL of the github repository
 
@@ -7,7 +8,7 @@ List down the files present in the the repository
 status of the github: working on which branch/ upto date or not/ anything to commit or not
 > git status
 
-create a new file 
+create a new file
 > echo "Content to be written in file" >> FileName.txt
 
 to add a file in staggin area of local git(ready to commit)
